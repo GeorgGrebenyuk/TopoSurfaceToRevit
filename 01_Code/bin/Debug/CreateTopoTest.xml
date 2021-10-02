@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CreateTopoTest</name>
+    </assembly>
+    <members>
+        <member name="M:CreateTopoTest.MainClass.CreateTopo(System.Collections.Generic.List{Autodesk.Revit.DB.XYZ},System.Collections.Generic.List{Autodesk.Revit.DB.PolymeshFacet})">
+            <summary>
+            This node create a Revit TopographySurface enity by List with 3-dimentiolal Points (XYZ) and List by PolymeshFacet
+            </summary>
+            <param name="Topo_Points">List with 3D-Points (XYZ type)</param>
+            <param name="Topo_Faces">List with Faces of surface (PolymeshFacet type)</param>
+        </member>
+        <member name="M:CreateTopoTest.MainClass.GetBasePointCoords">
+            <summary>
+            Method to fing and return coordinates of project's internal survey's point
+            </summary>
+        </member>
+        <member name="M:CreateTopoTest.MainClass.GetPointsAndFacesFromLandxml(System.String,System.Double)">
+            <summary>
+            Node that convert landxml's data to Lists with Points and faces
+            </summary>
+            <param name="PathToLandxml">Absolute file's path to landxml file</param>
+            <param name="UnitsCoeff">Auxilary double-value coefficient (between meters in landxml surface definition to Revit's units). Optionally = 1000 </param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
