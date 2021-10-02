@@ -27,6 +27,14 @@ namespace CreateTopoTest
 			//this.Topo_F = Group2;
         }
         /// <summary>
+        /// Info abiut package
+        /// </summary>
+        /// <returns></returns>
+        public static string AboutPackage()
+		{
+            return "Look package's github repo with sample dyn-scripts via link - https://github.com/GeorgGrebenyuk/TopoSurfaceToRevit";
+		}
+        /// <summary>
         /// This node create a Revit TopographySurface enity by List with 3-dimentiolal Points (XYZ) and List by PolymeshFacet
         /// </summary>
         /// <param name="Topo_Points">List with 3D-Points (XYZ type)</param>
