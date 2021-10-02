@@ -12,6 +12,9 @@ Package can be used by two ways: as Dynamo's package (download via Dynamo packag
 
 Alternative way - import to dynamo as custom library ([files from that folder](01_Code/bin/Debug))
 
+Firstly, download files
+![](03_Doc/Screen5.png)
+
 ![](03_Doc/Screen2.png)
 
 After installing there are some nodes in package's structure:
