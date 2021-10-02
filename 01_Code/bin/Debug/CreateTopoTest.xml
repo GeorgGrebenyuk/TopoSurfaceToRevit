@@ -4,6 +4,12 @@
         <name>CreateTopoTest</name>
     </assembly>
     <members>
+        <member name="M:CreateTopoTest.MainClass.AboutPackage">
+            <summary>
+            Info abiut package
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:CreateTopoTest.MainClass.CreateTopo(System.Collections.Generic.List{Autodesk.Revit.DB.XYZ},System.Collections.Generic.List{Autodesk.Revit.DB.PolymeshFacet})">
             <summary>
             This node create a Revit TopographySurface enity by List with 3-dimentiolal Points (XYZ) and List by PolymeshFacet
