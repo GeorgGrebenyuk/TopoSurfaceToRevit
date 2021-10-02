@@ -25,3 +25,9 @@ Dynamo script you can find [in file](CreateTopoFromLandXml.dyn)
 ## Development and compiling
 Package is contain a minimum of Revit'a API methods (create Toposurface from points and faces and get coordinates of Revit's survey point). Other methods - is .NET classic code. Project is builded to .NET Framework 4.8 to Revit 2021. Run CreateTopoTest.sln to compile project.
 
+# About creating topo-surface in Revit
+Recommended sequence of actions is presented below (demo files in 02_Demo):
+1. Assign shared coordinates to Revit's model from DWG-file with assigned geodetic coordinate system
+2. Create new surface in AutoCAD Civil 3D with faces from needing surface and export it as LandXML-file (my method work with landxml, if it contains only from points and facets);
+3. Open script and set file path to your landxml-file. After that run script (usually it working during few seconds)
+4. Profit! (as comparing I recommending upload DWG-file as external link to Revit's model)
