@@ -12,6 +12,8 @@ Repo with code for Autodesk dynamo package to create Revit's surface from initia
 ![](03_Doc/Screen1.png)
 
 Альтернативный путь - импорт как пользовательской библиотеки ([используя группу файлов отсюда](01_Code/bin/Debug))
+Сперва загрузите файлы
+![](03_Doc/Screen5.png)
 
 ![](03_Doc/Screen2.png)
 
