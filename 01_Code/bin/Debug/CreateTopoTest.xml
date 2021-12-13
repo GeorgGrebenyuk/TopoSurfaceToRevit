@@ -22,13 +22,31 @@
             Method to fing and return coordinates of project's internal survey's point
             </summary>
         </member>
-        <member name="M:CreateTopoTest.MainClass.GetPointsAndFacesFromLandxml(System.String,System.Double)">
+        <member name="M:CreateTopoTest.MainClass.GetPointsAndFacesFromLandxml(System.String,Autodesk.DesignScript.Geometry.Point,System.Double)">
             <summary>
             Node that convert landxml's data to Lists with Points and faces
             </summary>
             <param name="PathToLandxml">Absolute file's path to landxml file</param>
             <param name="UnitsCoeff">Auxilary double-value coefficient (between meters in landxml surface definition to Revit's units). Optionally = 1000 </param>
             <returns></returns>
+        </member>
+        <member name="M:CreateTopoTest.MainClass.GetPointsAndFacesFromLandxml_WithCuting(System.String,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,Autodesk.DesignScript.Geometry.Point,System.Double)">
+            <summary>
+            Node that convert landxml's data to Lists with Points and faces
+            </summary>
+            <param name="PathToLandxml">Absolute file's path to landxml file</param>
+            <param name="UnitsCoeff">Auxilary double-value coefficient (between meters in landxml surface definition to Revit's units). Optionally = 1000 </param>
+            <param name="Min_point">Minimum point - left bottom in internal Revit's coordinates</param>
+            <param name="Max_point">Maximum point - upper right in internal Revit's coordinates</param>
+            <returns></returns>
+        </member>
+        <member name="M:CreateTopoTest.MainClass.CreateIfcRepresentationOfSurfaceByLandxml(System.String,Autodesk.DesignScript.Geometry.Point,System.Double)">
+            <summary>
+            Create IFC file by source landxml surfaces's definition. Use an offset-point and value of rotation angle to place ifc-surface by selected basepoint
+            </summary>
+            <param name="PathToLandxmlFile">Absolute file-path to landxml file</param>
+            <param name="ZeroPoint">Point that = zero in internal CS of model</param>
+            <param name="RotatinoAngle">double value of rotation's angle in grades</param>
         </member>
     </members>
 </doc>
