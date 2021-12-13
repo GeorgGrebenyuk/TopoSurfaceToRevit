@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<LandXML xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd" date="2021-12-05" time="15:41:03" version="1.2" language="English" readOnly="false">
+	<Units>
+		<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" temperatureUnit="celsius" pressureUnit="milliBars" diameterUnit="millimeter" angularUnit="decimal degrees" directionUnit="decimal degrees"></Metric>
+	</Units>
+	<Project name="D:\DiskCloud\NBimMng\21_NN\Demo\Parcel_105.dwg"></Project>
+	<Application name="Autodesk Revit"></Application>
+	<Surfaces>
+		<Surface name="TopoByRevit_Surface">
+			<SourceData></SourceData>
+			<Definition surfType="TIN">
+				<Pnts>
+				</Pnts>
+				<Faces>
+				</Faces>
+			</Definition>
+		</Surface>
+	</Surfaces>
+</LandXML>
